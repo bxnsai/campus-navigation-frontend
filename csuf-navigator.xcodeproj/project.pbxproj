@@ -14,6 +14,9 @@
 		E5031AF62CD8275400F7B8C9 /* csuf_navigatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5031AF52CD8275400F7B8C9 /* csuf_navigatorTests.swift */; };
 		E5031B002CD8275400F7B8C9 /* csuf_navigatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5031AFF2CD8275400F7B8C9 /* csuf_navigatorUITests.swift */; };
 		E5031B022CD8275400F7B8C9 /* csuf_navigatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5031B012CD8275400F7B8C9 /* csuf_navigatorUITestsLaunchTests.swift */; };
+		E5031B0F2CD82A4400F7B8C9 /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5031B0E2CD82A4400F7B8C9 /* BFS.swift */; };
+		E5031B112CD82E9700F7B8C9 /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5031B102CD82E9700F7B8C9 /* DFS.swift */; };
+		E5031B132CD82EB300F7B8C9 /* Dijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5031B122CD82EB300F7B8C9 /* Dijkstra.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		E5031AFB2CD8275400F7B8C9 /* csuf-navigatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "csuf-navigatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5031AFF2CD8275400F7B8C9 /* csuf_navigatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = csuf_navigatorUITests.swift; sourceTree = "<group>"; };
 		E5031B012CD8275400F7B8C9 /* csuf_navigatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = csuf_navigatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E5031B0E2CD82A4400F7B8C9 /* BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
+		E5031B102CD82E9700F7B8C9 /* DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
+		E5031B122CD82EB300F7B8C9 /* Dijkstra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dijkstra.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				E5031AE42CD8275200F7B8C9 /* csuf_navigatorApp.swift */,
 				E5031AE62CD8275200F7B8C9 /* ContentView.swift */,
+				E5031B102CD82E9700F7B8C9 /* DFS.swift */,
+				E5031B122CD82EB300F7B8C9 /* Dijkstra.swift */,
+				E5031B0E2CD82A4400F7B8C9 /* BFS.swift */,
 				E5031AE82CD8275300F7B8C9 /* Assets.xcassets */,
 				E5031AEA2CD8275300F7B8C9 /* Preview Content */,
 			);
@@ -258,7 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5031AE72CD8275200F7B8C9 /* ContentView.swift in Sources */,
+				E5031B112CD82E9700F7B8C9 /* DFS.swift in Sources */,
 				E5031AE52CD8275200F7B8C9 /* csuf_navigatorApp.swift in Sources */,
+				E5031B0F2CD82A4400F7B8C9 /* BFS.swift in Sources */,
+				E5031B132CD82EB300F7B8C9 /* Dijkstra.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
