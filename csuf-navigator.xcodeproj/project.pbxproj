@@ -17,6 +17,8 @@
 		E5031B0F2CD82A4400F7B8C9 /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5031B0E2CD82A4400F7B8C9 /* BFS.swift */; };
 		E5031B112CD82E9700F7B8C9 /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5031B102CD82E9700F7B8C9 /* DFS.swift */; };
 		E5031B132CD82EB300F7B8C9 /* Dijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5031B122CD82EB300F7B8C9 /* Dijkstra.swift */; };
+		E5031B152CD83BAE00F7B8C9 /* RouteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5031B142CD83BAE00F7B8C9 /* RouteData.swift */; };
+		E5031B172CDB7CDD00F7B8C9 /* vertex-location.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5031B162CDB7CDD00F7B8C9 /* vertex-location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		E5031B0E2CD82A4400F7B8C9 /* BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
 		E5031B102CD82E9700F7B8C9 /* DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
 		E5031B122CD82EB300F7B8C9 /* Dijkstra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dijkstra.swift; sourceTree = "<group>"; };
+		E5031B142CD83BAE00F7B8C9 /* RouteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteData.swift; sourceTree = "<group>"; };
+		E5031B162CDB7CDD00F7B8C9 /* vertex-location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "vertex-location.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +106,11 @@
 			children = (
 				E5031AE42CD8275200F7B8C9 /* csuf_navigatorApp.swift */,
 				E5031AE62CD8275200F7B8C9 /* ContentView.swift */,
+				E5031B142CD83BAE00F7B8C9 /* RouteData.swift */,
 				E5031B102CD82E9700F7B8C9 /* DFS.swift */,
 				E5031B122CD82EB300F7B8C9 /* Dijkstra.swift */,
 				E5031B0E2CD82A4400F7B8C9 /* BFS.swift */,
+				E5031B162CDB7CDD00F7B8C9 /* vertex-location.swift */,
 				E5031AE82CD8275300F7B8C9 /* Assets.xcassets */,
 				E5031AEA2CD8275300F7B8C9 /* Preview Content */,
 			);
@@ -269,8 +275,10 @@
 				E5031AE72CD8275200F7B8C9 /* ContentView.swift in Sources */,
 				E5031B112CD82E9700F7B8C9 /* DFS.swift in Sources */,
 				E5031AE52CD8275200F7B8C9 /* csuf_navigatorApp.swift in Sources */,
+				E5031B172CDB7CDD00F7B8C9 /* vertex-location.swift in Sources */,
 				E5031B0F2CD82A4400F7B8C9 /* BFS.swift in Sources */,
 				E5031B132CD82EB300F7B8C9 /* Dijkstra.swift in Sources */,
+				E5031B152CD83BAE00F7B8C9 /* RouteData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
