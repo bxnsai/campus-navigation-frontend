@@ -72,7 +72,7 @@ struct BFS: View {
                     }()) */
                      
                      
-                    // Marker("College Park North Parking", coordinate: vloc.cpParkingN)
+                    //  Marker("College Park North Parking", coordinate: vloc.cpParkingN)
                 }
                 .safeAreaInset(edge: .top){
                     HStack{
@@ -84,9 +84,9 @@ struct BFS: View {
                           //  updateMarkers()
                         }
                         Spacer()
-                        NavigationLink(destination: BFS_menu().environmentObject(choice)){  Text("Source: \(choice.source?.name ?? "None")") }
+                        NavigationLink(destination: menu().environmentObject(choice)){  Text("Start: \(choice.source?.name ?? "None")") }
                         Spacer()
-                        NavigationLink(destination: dest().environmentObject(choice)){ Text("Dest: \(choice.destination?.name ?? "None")") }
+                        NavigationLink(destination: dest().environmentObject(choice)){ Text("End: \(choice.destination?.name ?? "None")") }
                         
                         
                         Spacer()

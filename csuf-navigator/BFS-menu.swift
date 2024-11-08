@@ -8,7 +8,7 @@
 import SwiftUI
 
 
-struct BFS_menu: View {
+struct menu: View {
     
     @EnvironmentObject var choice: srcdest
 
@@ -97,5 +97,5 @@ struct dest: View {
 
 
 #Preview {
-    BFS_menu().environmentObject(srcdest())
+    menu().environmentObject(srcdest())
 }
