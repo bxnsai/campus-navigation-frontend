@@ -19,6 +19,10 @@
 		E5031B132CD82EB300F7B8C9 /* Dijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5031B122CD82EB300F7B8C9 /* Dijkstra.swift */; };
 		E5031B152CD83BAE00F7B8C9 /* RouteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5031B142CD83BAE00F7B8C9 /* RouteData.swift */; };
 		E5031B172CDB7CDD00F7B8C9 /* vertex-location.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5031B162CDB7CDD00F7B8C9 /* vertex-location.swift */; };
+		E5031B192CDC9AB200F7B8C9 /* BFS-menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5031B182CDC9AB200F7B8C9 /* BFS-menu.swift */; };
+		E5031B1B2CDCA97000F7B8C9 /* srcdest-model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5031B1A2CDCA97000F7B8C9 /* srcdest-model.swift */; };
+		E5031B1E2CDD863600F7B8C9 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = E5031B1D2CDD863600F7B8C9 /* Collections */; };
+		E5031B202CDD863600F7B8C9 /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = E5031B1F2CDD863600F7B8C9 /* OrderedCollections */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,8 @@
 		E5031B122CD82EB300F7B8C9 /* Dijkstra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dijkstra.swift; sourceTree = "<group>"; };
 		E5031B142CD83BAE00F7B8C9 /* RouteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteData.swift; sourceTree = "<group>"; };
 		E5031B162CDB7CDD00F7B8C9 /* vertex-location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "vertex-location.swift"; sourceTree = "<group>"; };
+		E5031B182CDC9AB200F7B8C9 /* BFS-menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BFS-menu.swift"; sourceTree = "<group>"; };
+		E5031B1A2CDCA97000F7B8C9 /* srcdest-model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "srcdest-model.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5031B202CDD863600F7B8C9 /* OrderedCollections in Frameworks */,
+				E5031B1E2CDD863600F7B8C9 /* Collections in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,9 +115,11 @@
 				E5031AE42CD8275200F7B8C9 /* csuf_navigatorApp.swift */,
 				E5031AE62CD8275200F7B8C9 /* ContentView.swift */,
 				E5031B142CD83BAE00F7B8C9 /* RouteData.swift */,
+				E5031B1A2CDCA97000F7B8C9 /* srcdest-model.swift */,
 				E5031B102CD82E9700F7B8C9 /* DFS.swift */,
 				E5031B122CD82EB300F7B8C9 /* Dijkstra.swift */,
 				E5031B0E2CD82A4400F7B8C9 /* BFS.swift */,
+				E5031B182CDC9AB200F7B8C9 /* BFS-menu.swift */,
 				E5031B162CDB7CDD00F7B8C9 /* vertex-location.swift */,
 				E5031AE82CD8275300F7B8C9 /* Assets.xcassets */,
 				E5031AEA2CD8275300F7B8C9 /* Preview Content */,
@@ -158,6 +168,10 @@
 			dependencies = (
 			);
 			name = "csuf-navigator";
+			packageProductDependencies = (
+				E5031B1D2CDD863600F7B8C9 /* Collections */,
+				E5031B1F2CDD863600F7B8C9 /* OrderedCollections */,
+			);
 			productName = "csuf-navigator";
 			productReference = E5031AE12CD8275200F7B8C9 /* csuf-navigator.app */;
 			productType = "com.apple.product-type.application";
@@ -230,6 +244,9 @@
 				Base,
 			);
 			mainGroup = E5031AD82CD8275200F7B8C9;
+			packageReferences = (
+				E5031B1C2CDD863600F7B8C9 /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
 			productRefGroup = E5031AE22CD8275200F7B8C9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -276,8 +293,10 @@
 				E5031B112CD82E9700F7B8C9 /* DFS.swift in Sources */,
 				E5031AE52CD8275200F7B8C9 /* csuf_navigatorApp.swift in Sources */,
 				E5031B172CDB7CDD00F7B8C9 /* vertex-location.swift in Sources */,
+				E5031B1B2CDCA97000F7B8C9 /* srcdest-model.swift in Sources */,
 				E5031B0F2CD82A4400F7B8C9 /* BFS.swift in Sources */,
 				E5031B132CD82EB300F7B8C9 /* Dijkstra.swift in Sources */,
+				E5031B192CDC9AB200F7B8C9 /* BFS-menu.swift in Sources */,
 				E5031B152CD83BAE00F7B8C9 /* RouteData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -602,6 +621,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E5031B1C2CDD863600F7B8C9 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E5031B1D2CDD863600F7B8C9 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5031B1C2CDD863600F7B8C9 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		E5031B1F2CDD863600F7B8C9 /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5031B1C2CDD863600F7B8C9 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E5031AD92CD8275200F7B8C9 /* Project object */;
 }
